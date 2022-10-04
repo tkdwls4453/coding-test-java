@@ -10,9 +10,9 @@ public class Main{
     int allOne = 0;
 
     if(str.charAt(0) == '0'){
-      allZero++;
-    }else{
       allOne++;
+    }else{
+      allZero++;
     }
     // 전부 0으로
     for(int i=1; i<str.length(); i++){
